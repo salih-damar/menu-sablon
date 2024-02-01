@@ -17,3 +17,7 @@ img/
 
 # log
 *.log
+
+# special files
+.lastlogin
+.htaccess
