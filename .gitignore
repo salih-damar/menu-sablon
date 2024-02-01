@@ -19,5 +19,5 @@ img/
 *.log
 
 # special files
-.lastlogin
-.htaccess
+/.lastlogin
+/.htaccess
