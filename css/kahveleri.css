@@ -1,0 +1,393 @@
+@font-face {
+    font-family: "significant";
+    src: url(/fonts//fonts/significant.otf.otf);
+    src: local("/fonts/significant.otf"),
+    url("/fonts/significant.otf") format("truetype"),
+    url("/fonts/significant.otf.svg") format("svg"),
+    url("/fonts/significant.otf.woff") format("woff"),
+    url("/fonts/significant.otf.woff2") format("woff2"),
+    url("/fonts/significant.otf.otf") format("opentype"),
+    url("/fonts/significant.otf.eot") format("embeded-opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+a:-webkit-any-link {
+    color: black;
+    text-decoration: none;
+}
+div.top {
+    position: sticky;
+    width: 100%;
+    height: 75px;
+    z-index: 2;
+    top: 0;
+}
+div.top-bar {
+    position: relative;
+    top: 0px;
+    height: 60px;
+    background-color: black;
+}
+div.shadow {
+    width: 95%;
+    height: 15px;
+    position: relative;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.3), rgba(255,255,255,0),rgba(255,255,255,0));/* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.1),rgba(255,255,255,.045), rgba(255,255,255,0));/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 0;
+}
+@media (max-width: 625px) {
+    html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    }
+    .main {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    .type-name {
+        display: block;
+        position: absolute;
+        left: 49.7%;
+        top: 7.5px;
+        color: whitesmoke;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 45px;    
+        text-wrap: nowrap;
+
+        transform: translate(-50%);
+    }
+    .logo{
+        display: block;
+        position: absolute;
+        right: 4%;
+        top: 50%;
+        width: 50px;
+        height: 50px;
+        transform: translateY(-50%);
+        background-image: url(/images/LEGO_logo.svg.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-clip: border-box;
+    }
+    div.top-bar div.back, div.back a{
+        display: flex;
+        font-size: 25px;
+        width: 60px;
+        height: 60px;
+        align-items: center;
+        justify-content: center;
+    }
+    div.back a {
+        color: whitesmoke;
+    }
+    div.left {
+        position: absolute;
+        left: 6%;
+    }
+    div.row{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 7%;
+        margin-bottom: 7%;
+    }div.row1{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-bottom: 7%;
+    }div.border {
+        position: relative;
+        height: 1px;
+        width: 87%;
+        background-color: #9e9e9e;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    div.meal {
+        display: block;
+        position: relative;
+        left: 7%;
+        width: 30%;
+        height: 7%;
+        z-index: 0;
+    }
+    div.img1{
+        background-image: url(/images/turk-kahvesi.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 85%;
+    }div.img2{
+        background-image: url(/images/sutlu-turk-kahvesi.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 90%;
+    }div.img3{
+        background-image: url(/images/dibek-kahvesi.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:  70%;
+    }div.img4{
+        background-image: url(/images/mirra.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }div.img5{
+        background-image: url(/images/kervansaray.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 90%;
+    }div.img6{
+        background-image: url(/images/kumda-kahve.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 40%;
+    }div.img7{
+        background-image: url(/images/devebatmaz.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 60%;
+    }
+    div.meal div.img{
+        display: flex;
+        position: relative;
+        width: 100%;
+        padding-top: 100%;
+        border-radius: 10px;
+        background-color: lightblue;
+        /*background-image: linear-gradient(45deg, rgba(255,255,255,.7), rgba(0,0,0,0));*/
+        align-items: center;
+        justify-content: center;
+    }
+    div.text {
+        color: whitesmoke;
+        position: absolute;
+        right: 0;
+        width: 60%;
+        height: 100%;
+    }div.text div.extra{
+        position: absolute;
+        top: 3.8em;
+    }
+    div.text div.name {
+        color: whitesmoke;
+        position: relative;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    div.text div.incredients {
+        width: 80%;
+        top: 5%;
+        position: relative;
+        text-wrap: stable;
+    }
+    div.text div.price{
+        position: absolute;
+        color: 	rgb(83, 150, 71);
+        right: 20%;
+        bottom: -15%;
+        font-weight: 500;
+    }
+    div.made{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        position: relative;
+        font-family: "significant";
+        color: rgba(255,255,255, .4);
+        bottom: 2px;
+        justify-content: center;
+    }
+}
+@media (min-width: 626px) {
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+    }
+    .main {
+        position: relative;
+        width: 600px;
+        background-color: black;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .type-name {
+        position: absolute;
+        left: 50%;
+        top: 5px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 50px;
+        color: whitesmoke;
+        transform: translate(-50%);
+    }
+    .logo{
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        right: 5%;
+        top: 50%;
+        transform: translateY(-50%);
+        background-image: url(/images/LEGO_logo.svg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-clip: border-box;
+    }
+    div.top-bar div.back {
+        display: flex;
+        font-size: 40px;
+        width: 60px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    div.back a {
+        color: whitesmoke;
+    }
+    .logo, .type-name {
+        background-color: none;
+        color: whitesmoke;
+    }
+    div.row{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }div.row1{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-bottom: 25px;
+    }div.border {
+        position: relative;
+        height: 1px;
+        width: 87%;
+        background-color: #9e9e9e;
+        left: 50%;
+        transform: translate(-50%);
+    }div.meal {
+        display: inline-block;
+        position: relative;
+        height: 150px;
+        width: 150px;
+        left: 7.5%;
+        z-index: 0;
+    }
+    div.img1{
+        background-image: url(/images/turk-kahvesi.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 90%;
+    }div.img2{
+        background-image: url(/images/sutlu-turk-kahvesi.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 90%;
+    }div.img3{
+        background-image: url(/images/dibek-kahvesi.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:  70%;
+    }div.img4{
+        background-image: url(/images/mirra.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+    }div.img5{
+        background-image: url(/images/kervansaray.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 90%;
+    }div.img6{
+        background-image: url(/images/kumda-kahve.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 40%;
+    }div.img7{
+        background-image: url(/images/devebatmaz.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 60%;
+    }div.meal div.img{
+        display: flex;
+        position: relative;
+        width: 100%;
+        padding-top: 100%;
+        border-radius: 10px;
+        background-color:   lightblue;
+        /*background-image: linear-gradient(45deg, rgba(255,255,255,.7), rgba(0,0,0,0));*/
+        align-items: center;
+        justify-content: center;
+    }
+    div.meal p.name {
+        margin-top: -35px;
+        font-size: 23px;
+        font-weight: 500;
+        display: flex;
+        position: relative;
+        text-wrap: nowrap;
+        color: whitesmoke;
+        width: 100%;
+        left: 10px;
+        align-items: center;
+    }
+    div.left {
+        left: 7.5%;
+    }
+    div.right {
+        right: 7.5%;
+    }
+    div.text {
+        color: whitesmoke;
+        position: absolute;
+        right: 0;
+        width: 65%;
+        height: 100%;
+    }
+    div.text div.extra{
+        position: absolute;
+        top: 5.5em;
+    }
+    div.text div.name {
+        color: whitesmoke;
+        position: relative;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    div.text div.incredients {
+        width: 80%;
+        position: relative;
+        top: 15px;
+    }
+    div.text div.price{
+        position: absolute;
+        color: 	rgb(108, 187, 94);
+        right: 20%;
+        bottom: -15%;
+        font-weight: 500;
+    }
+    div.made{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        position: relative;
+        font-family: "significant";
+        color: rgba(255,255,255, .4);
+        line-height: 15px;
+        bottom: 2px;
+        justify-content: center;
+    }
+}
