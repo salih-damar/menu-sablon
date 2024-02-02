@@ -9,10 +9,9 @@
     Hamburger menu sayesinde kolay erisim saglar.
     Telefon numaranizi dogrudan reherde goruntuler musteriyi ugrastirmaz.
     Dijital menudur.
-
+---
 ### Eksikler:
     Online siparis ozelligi yok.
     Sepet ozelligi yok.
     Ucan kacan janjanli animasyonlar yok.
 
-[oylesine ha tiklama!](https://www.siir.gen.tr)
