@@ -8,7 +8,7 @@
 # img
 *.jpg
 *.png
-img/
+imgages
 
 # sounds
 *.mp4
