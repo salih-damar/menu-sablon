@@ -71,7 +71,8 @@ div.shadow {
         width: 50px;
         height: 50px;
         transform: translateY(-50%);
-        background-image: url(/images/LEGO_logo.svg.png);
+        background-image: url(/images/logo.svg);
+        background-color: whitesmoke;
         background-size: contain;
         background-repeat: no-repeat;
         background-clip: border-box;
@@ -230,7 +231,8 @@ div.shadow {
         right: 5%;
         top: 50%;
         transform: translateY(-50%);
-        background-image: url(/images/LEGO_logo.svg.png);
+        background-image: url(/images/logo.svg);
+        background-color: whitesmoke;
         background-size: cover;
         background-repeat: no-repeat;
         background-clip: border-box;

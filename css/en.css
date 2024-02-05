@@ -136,7 +136,8 @@ div.en div.img {
         height:55px;
         width: 55px;
         margin: 10px;
-        background-image: url(/images/LEGO_logo.svg.png);
+        background-image: url(/images/logo.svg);
+        background-color: whitesmoke;
         background-size: cover;
         background-repeat: no-repeat;
         background-clip: border-box;
@@ -216,7 +217,8 @@ div.en div.img {
     }.mark .logo{
         width: 45px;
         height: 45px;
-        background-image: url(/images/LEGO_logo.svg.png);
+        background-image: url(/images/logo.svg);
+        background-color: whitesmoke;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -427,7 +429,8 @@ div.en div.img {
         height:55px;
         width: 55px;
         margin: 10px;
-        background-image: url(/images/LEGO_logo.svg.png);
+        background-image: url(/images/logo.svg);
+        background-color: whitesmoke;
         background-size: cover;
         background-repeat: no-repeat;
         background-clip: border-box;
@@ -541,7 +544,8 @@ div.en div.img {
     .logo{
         height: 45px;
         width: 45px;
-        background-image: url(/images/LEGO_logo.svg.png);
+        background-image: url(/images/logo.svg);
+        background-color: whitesmoke;
         background-repeat: no-repeat;
         background-size: cover;
     }
