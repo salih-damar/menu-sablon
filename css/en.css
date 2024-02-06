@@ -131,8 +131,7 @@ div.en div.img {
         align-items: center;
         justify-content: center;
         position: relative;
-    }
-    .content .header .logo{
+    }.content .header .logo{
         height:55px;
         width: 55px;
         margin: 10px;
@@ -141,8 +140,25 @@ div.en div.img {
         background-size: cover;
         background-repeat: no-repeat;
         background-clip: border-box;
-    }
-    .content div p{
+    }.content .history .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content .markets .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content .contact .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content div p{
         margin: 0;
         position: absolute;
         bottom: 7px;
@@ -434,6 +450,24 @@ div.en div.img {
         background-size: cover;
         background-repeat: no-repeat;
         background-clip: border-box;
+    }.content .history .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content .markets .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content .contact .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
     }.content div p{
         margin: 0;
         position: absolute;

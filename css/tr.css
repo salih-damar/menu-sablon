@@ -435,6 +435,24 @@ div.en div.img {
         background-size: cover;
         background-repeat: no-repeat;
         background-clip: border-box;
+    }.content .history .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content .markets .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content .contact .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
     }.content div p{
         margin: 0;
         position: absolute;
