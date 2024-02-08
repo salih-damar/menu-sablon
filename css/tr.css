@@ -131,8 +131,7 @@ div.en div.img {
         align-items: center;
         justify-content: center;
         position: relative;
-    }
-    .content .header .logo{
+    }.content .header .logo{
         height:55px;
         width: 55px;
         margin: 10px;
@@ -141,15 +140,31 @@ div.en div.img {
         background-size: cover;
         background-repeat: no-repeat;
         background-clip: border-box;
-    }
-    .content div p{
+    }.content .history .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content .markets .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content .contact .h2{
+        position: absolute;
+        top: 10px;
+        font-size: 24px;
+        font-style: bold;
+        font-weight: 700;
+    }.content div p{
         margin: 0;
         position: absolute;
         bottom: 7px;
         left: 20px;
         visibility: hidden;
-    }
-    .p a{
+    }.p a{
         margin: 0;
         position: absolute;
         bottom: 7px;
@@ -344,7 +359,7 @@ div.en div.img {
         display: flex;
         position: relative;
         font-weight: 600;
-        font-size: 5vw;
+        font-size: 4.5vw;
         text-wrap: nowrap;
         color: rgba(255, 255, 255, .85);
         width: 100%;
@@ -357,6 +372,10 @@ div.en div.img {
     div.right {
         position: absolute;
         right: 6%;
+    }div.bottom{
+        position: relative;
+        height: 4pc;
+        width: 100%;
     }
 }
 @media (min-width: 626px) {
@@ -383,8 +402,7 @@ div.en div.img {
         position: absolute;
         z-index: 3;
         transition: 300ms width;
-    }
-    .content {
+    }.content {
         width: 0;
         height: 100%;
         justify-content: center;
@@ -580,16 +598,7 @@ div.en div.img {
         right: 15px;
         top: 5px;
         transition: .1s height;
-    }
-    div.top-bar div.back {
-        display: flex;
-        font-size: 40px;
-        width: 60px;
-        height: 60px;
-        align-items: center;
-        justify-content: center;
-    }
-    div.tr, div.en  {
+    }div.tr, div.en  {
         display: flex;
         align-items: center;
         color: black;
@@ -698,5 +707,9 @@ div.en div.img {
     }
     div.right {
         right: 20%;
+    }div.bottom{
+    position: relative;
+    height: .30pc;
+    width: 100%;
     }
 }

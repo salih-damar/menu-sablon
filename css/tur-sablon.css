@@ -63,7 +63,7 @@ div.shadow {
         line-height: 45px;    
         transform: translate(-50%);
     }
-    .logo{
+    .cart{
         display: block;
         position: absolute;
         right: 4%;
@@ -88,7 +88,7 @@ div.shadow {
     div.back a {
         color: whitesmoke;
     }
-    .logo, .type-name {
+    .cart, .type-name {
         color: whitesmoke;
     }
     div.left {
@@ -225,7 +225,7 @@ div.shadow {
         color: whitesmoke;
         transform: translate(-50%);
     }
-    .logo{
+    .cart{
         display: block;
         position: absolute;
         width: 50px;
@@ -250,7 +250,7 @@ div.shadow {
     div.back a{
         color: whitesmoke;
     }
-    .logo, .mark-name {
+    .cart, .mark-name {
         background-color: none;
         color: whitesmoke;
     }

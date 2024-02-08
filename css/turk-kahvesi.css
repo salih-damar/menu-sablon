@@ -65,7 +65,7 @@ div.shadow {
 
         transform: translate(-50%);
     }
-    .logo{
+    .cart{
         display: block;
         position: absolute;
         right: 4%;
@@ -223,7 +223,7 @@ div.shadow {
         color: whitesmoke;
         transform: translate(-50%);
     }
-    .logo{
+    .cart{
         display: block;
         position: absolute;
         width: 50px;
@@ -248,7 +248,7 @@ div.shadow {
     div.back a {
         color: whitesmoke;
     }
-    .logo, .type-name {
+    .cart, .type-name {
         background-color: none;
         color: whitesmoke;
     }
