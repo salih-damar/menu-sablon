@@ -375,16 +375,6 @@ div.en div.img {
         position: absolute;
         right: 6%;
     }
-    div.made{
-        width: 100%;
-        margin-top: 10px;
-        display: flex;
-        position: relative;
-        font-family: "significant";
-        color: rgba(255,255,255, .4);
-        bottom: 2px;
-        justify-content: center;
-    }
 }
 @media (min-width: 626px) {
     html, body{
@@ -715,16 +705,5 @@ div.en div.img {
     }
     div.right {
         right: 20%;
-    }
-    div.made{
-        width: 100%;
-        margin-top: 10px;
-        display: flex;
-        position: relative;
-        font-family: "significant";
-        color: rgba(255,255,255, .4);
-        line-height: 15px;
-        bottom: 2px;
-        justify-content: center;
     }
 }
