@@ -410,6 +410,14 @@ div.en div.img {
         position: absolute;
         z-index: 3;
         transition: 300ms width;
+    }.darkness{
+        width: 0;
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        transition: 400ms background-color;
     }.content {
         width: 0;
         height: 100%;
@@ -419,7 +427,7 @@ div.en div.img {
         position: absolute;
         top: 0px;
         left: 0;
-        z-index: 1;
+        z-index: 3;
         transition: 300ms width;
         visibility: hidden;
     }.content div div h2{
@@ -560,8 +568,11 @@ div.en div.img {
     input#menu-toggle:checked + label.menu div.button {
         top: 10px;
         right: 10px;
-    }
-    input#menu-toggle:checked + label.menu + div.content{
+    }input#menu-toggle:checked + label.menu + div.darkness{
+        width: 100%;
+        height: 1200%;
+        background-color: rgba(0, 0, 0, .5);
+    }input#menu-toggle:checked + label.menu + div.darkness div.content{
         visibility: visible;
         width: 80%;
         height: 750px;
@@ -593,7 +604,7 @@ div.en div.img {
         display: flex;
         flex-direction: column;
         position: absolute;
-        z-index: 2;
+        z-index: 1;
         width: 90px;
         height: 50px;
         background-color: white;
