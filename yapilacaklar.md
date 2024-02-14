@@ -1,3 +1,3 @@
 # Yapilacaklar Listesi
 
-* Hamburger menu acildiginda arkasinda blur olacak
+* Hamburger menu acildiginda arkasinda blur olacak (tik)
