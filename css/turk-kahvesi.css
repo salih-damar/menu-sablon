@@ -222,8 +222,7 @@ div.shadow {
         line-height: 50px;
         color: whitesmoke;
         transform: translate(-50%);
-    }
-    .cart{
+    }.cart{
         display: block;
         position: absolute;
         width: 50px;
@@ -236,8 +235,7 @@ div.shadow {
         background-size: cover;
         background-repeat: no-repeat;
         background-clip: border-box;
-    }
-    div.top-bar div.back {
+    }div.top-bar div.back {
         display: flex;
         font-size: 40px;
         width: 60px;
